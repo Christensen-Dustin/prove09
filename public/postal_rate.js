@@ -51,3 +51,16 @@ function firstclassWeight() {
 function noWeight() {
     return [];
 }
+
+function displayAJAX(){
+        var type = document.getElementsByName("type")[0].value;
+        var weight = document.getElementsByName("weight")[0].value;
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function(){
+            if (this.readyState == 4 && this.status == 200){
+                document.getElementById("displayJSON").innerHTML=request.responseText;
+      }
+    }
+request.open("GET", "/postal_rates?type=" + type + "&weight=" + weight, true);
+request.send();
+    }
