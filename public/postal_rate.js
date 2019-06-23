@@ -30,8 +30,6 @@ function displayWeight() {
         option.value = weight;
         select.appendChild(option);
     }
-    
-    weights = emptyWeight(weights);
 }
 
 function stampedWeight() {
@@ -52,13 +50,4 @@ function firstclassWeight() {
 
 function noWeight() {
     return [];
-}
-
-function emptyWeight(weight) {
-    for(var i = 0; i < weight.length; i++) {
-        delete weight[i];
-    }
-    weight.length = 0;
-    
-    return weight;
 }
