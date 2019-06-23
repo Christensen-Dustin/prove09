@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="eng-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Title of Project/Site</title>
+	<link rel="stylesheet" type="text/css" href="prove09.css">
+	<script type="text/javascript" src="postal_rate.js"></script>
+	<style></style>
+</head>  
+<body>
+<header>
+    <h1>Calculate Postage:</h1>
+    <h2>Specify the <b style="color: green">WEIGHT</b> of the item and the <b style="color: red">TYPE</b> of mail</h2>
+</header>
+<div class="select">
+<form method="get" action="/postal_rates">
+<div class="type">
+    <h2>Select Type First</h2>
+    <b>Please select a TYPE of mail:</b><br>
+    <select name="type" id="type" onchange="displayWeight()">
+        <option value="nothing">Please Select Type</option>
+        <option value="stamped">Letters (Stamped)</option>
+        <option value="metered">Letters (Metered)</option>
+        <option value="large-flat">Large Envelopes (Flat)</option>
+        <option value="first-class">First-Class Package Service-Retail</option>
+    </select>
+</div>
+    <br>
+<div class="weight">
+    <h2>Select Weight Second</h2>
+    <b>Please select a WEIGHT of the item:</b><br>
+    <select name="weight" id="weight">
+        <option>Please Select Weight</option>
+    </select>
+</div>
+    <br>
+    <input type="submit" value="click for rates">
+</form>     
+</div>
+<div class="results">
+
+</div>
+</body>
+</html>

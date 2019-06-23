@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    background-color: lightblue;
+}
+
+header {
+    background-color: lightgray;
+    height: 41px;
+    text-align: center;
+    padding: 27px 33px;
+    
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navBar a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 21px 27px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.navBar a:hover {
+    background-color: green;
+    color: yellow;
+    
+}
+
+.navBar a:active {
+    background-color: red;
+    color: white;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 37px;
+    font-weight: bolder;
+    
+}
+
+p:hover {
+    color: plum;
+    background-color: aquamarine;
+    
+}
+
+.btnCheckout {
+    margin-left: 40%;
+    text-align: center;
+    width: 25%;    
+}
+
+.btnCheckout a {
+    font-family: serif;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 13px 17px;
+    background-color: chocolate;
+    color: white;
+}
+
+.btnCheckout a:hover, a:active {
+    color: yellow;
+    background-color: blue;
+}
+
+.client {
+    margin-left: 25%;
+}
+
+.conf {
+    margin-left: 25%;
+    font-size: 40px;
+    color: beige;
+}
+
+.clientSubmit {
+    margin-left: 45%;
+}
+
+.clientBtn {
+    
+    text-align: center;
+    width: auto;
+}
+
+.clientBtn a {
+    font-family: serif;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 13px 17px;
+    background-color: chocolate;
+    color: white;
+}
+
+.clientBtn a:hover, a:active {
+    color: red;
+    background-color: black;
+}
+
+.thClient {
+    text-align: right;
+}
+
+.tdClient {
+    text-align: left;
+    width: auto;
+}
+
+#info1 {
+    background-color: brown;
+    color: lightyellow;
+    font-size: 21px;
+    font-weight: normal;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding: 23px;
+    
+}
+
+#audioTheme {
+    margin-left: 10%;
+    
+}
+
+#cart {
+    color: white;
+    
+}
+
+.items {
+    margin-left: 30%;
+    
+}
+
+.details {
+    margin-left: 20%;
+}
+
+.thDetails {
+    width: 400px;
+}
+
+.tdDetails {
+    width: 600px;
+}
+
+.info {
+    text-align: left;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: normal;
+
+}
+
+th {
+    width: 200px;
+    
+}
+
+#thCart {
+    width: 60px;
+    
+}
+
+td {
+    width: 400px;
+    
+}
+
+#tdCart {
+    width: 120px;
+    
+}
+
+.mainPic {
+    width: 200px;
+    
+}
+
+.thumbPic {
+    width: 55px;
+    
+}
+
+.cart {
+    margin-left: 40%   
+    
+}
+
+.cartInfo {
+    margin-left: 0;
+    text-align: left;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: normal;
+    
+}
